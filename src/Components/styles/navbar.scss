@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: $navbar-blue;
+    color: $navbar-blue;
+
+    input{
+        height: 30px;
+        padding-left: 10px;
+        margin: 10px;
+        color: whitesmoke;
+        background-color: $navbar-darkblue;
+        border: transparent;
+        border-radius: 30px;
+        box-shadow: 3px 4px 4px rgb(10, 67, 85) inset;
+    }
+
+    ::placeholder{
+        
+        color: $navbar-blue;
+    }
+}
+

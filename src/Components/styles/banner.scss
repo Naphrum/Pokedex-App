@@ -1,0 +1,46 @@
+.Banner-section {
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 50vw;
+  padding-top: 2em;
+
+  font-size: calc(10px + 2vmin);
+  color: #f6f6f6;
+
+  // background-image: url("../assets/banner-background.gif");
+  // background-repeat: no-repeat;
+  // background-position: center;
+
+}
+
+.Pokedex-logo {
+  padding-bottom: 2.2em;
+}
+
+#credit a {
+  display: flex;
+  margin: 0 5px 0 5px;
+  padding: 0;
+  color: rgb(146, 146, 146);
+  text-decoration: none;
+  font-size: 1.6em;
+}
+
+#credit a:visited {
+  color: rgb(146, 146, 146);
+  text-decoration: none;
+}
+
+//Mixins
+// @mixin background($imgpath, $position: 0 0,$repeat: no-repeat){
+//     background {
+//         background-image: url($imgpath);
+//         position: $position;
+//         repeat: $repeat;
+//     }
+// }
